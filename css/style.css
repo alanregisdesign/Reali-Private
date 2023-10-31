@@ -1223,7 +1223,7 @@ input.contact-submit{
     background: -webkit-linear-gradient(135deg, #fff 0%, #c7c7c7 100%);
     background: -o-linear-gradient(bottom right, #fff, #c7c7c7);
     background: -moz-linear-gradient(bottom right, #fff, #c7c7c7);
-    background: linear-gradient(135deg, #fff 0%, #985BEF c7c7c7%);
+    background: linear-gradient(135deg, #fff 0%, #985BEF #c7c7c7);
     border: none;
     cursor: pointer;
     display: inline-block;
