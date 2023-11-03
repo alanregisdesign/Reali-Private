@@ -419,7 +419,7 @@ iframe {
 }
 
 .navbar-fixed-top #navbar-collapse-02 .current a {
-    color:#008aff;
+    color:#cb791e;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -427,7 +427,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque #navbar-collapse-02 .current a {
-    color:#858f8f!important;
+    color:#cb791e!important;
      -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -448,8 +448,8 @@ iframe {
 
 .navbar-fixed-top.opaque {
 	position: fixed!important;
-	background-color: #fff!important;
-	border-bottom: 1px solid #eee;
+	background-color: #1a1a1a!important;
+	border-bottom: 1px solid #1a1a1a;
 	padding: 20px 0;
 	transition: all 0.25s ease-in-out 0s;
 }
@@ -462,7 +462,7 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a{
-	color:#fff !important;
+	color:#ffffff !important;
 	font-size: 14px !important;
 	line-height: 30px !important;
 	text-transform: uppercase;
@@ -471,8 +471,12 @@ iframe {
 	font-weight: 600;
 }
 
+.navbar-fixed-top .navbar-nav > li > a:hover{
+	color: #ce7f25 !important;
+}
+
 .navbar-fixed-top.opaque .navbar-nav > li > a{
-	color:#454545 !important;
+	color:#fff !important;
 }
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn {
@@ -499,9 +503,9 @@ iframe {
 }
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn:hover {
-	border: 1px solid #ffffff;
-	color: #000!important;
-	background: #ffffff;
+	border: 1px solid #9b5a11;
+	color: #9b5a11!important;
+	background: transparent;
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn:hover {
@@ -853,11 +857,11 @@ ul.team-icon li a.dribble{
 .feature-box i{
 	float: left;
 	font-size: 48px;
-	color: #fff;
-    background: -webkit-linear-gradient(135deg, #fff 0%, #ececec 100%);
-    background: -o-linear-gradient(bottom right, #fff, #ececec);
-    background: -moz-linear-gradient(bottom right, #fff, #ececec);
-    background: linear-gradient(135deg, #fff 0%, #ececec 100%);
+	color: #cb791e;
+    background: -webkit-linear-gradient(135deg, #cb791e 0%, #9b5a11 100%);
+    background: -o-linear-gradient(bottom right, #cb791e, #9b5a11);
+    background: -moz-linear-gradient(bottom right, #cb791e, #9b5a11);
+    background: linear-gradient(135deg, #cb791e 0%, #9b5a11 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -1405,12 +1409,12 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .btn-blue:hover{
-	color: #fff;
+	color: #cb791e;
 	background: #1f1f1f;
-    background: -webkit-linear-gradient(135deg, #1f1f1f 0%, #272727 100%);
-    background: -o-linear-gradient(bottom right, #1f1f1f, #272727);
-    background: -moz-linear-gradient(bottom right, #1f1f1f, #272727);
-    background: linear-gradient(135deg, #1f1f1f 0%, #272727 100%);
+    background: -webkit-linear-gradient(135deg, #cb791e 0%, #a35f11 100%);
+    background: -o-linear-gradient(bottom right, #cb791e, #a35f11);
+    background: -moz-linear-gradient(bottom right, #cb791e, #a35f11);
+    background: linear-gradient(135deg, #cb791e 0%, #a35f11 100%);
 }
 
 .btn-white {
@@ -1429,7 +1433,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .btn-white:hover{
-	color: #fff ;
+	color: #cb791e;
 	background: #000 ;
     background: -webkit-linear-gradient(135deg, #232323 0%, #000  100%);
     background: -o-linear-gradient(bottom right, #232323, #000 );
@@ -1723,9 +1727,9 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 .fun-facts-box i{
 	font-size:45px;
 	line-height:54px;
-	color: #000;
-	background: #000;
-	background: -webkit-gradient(linear, left top, right bottom, from(#000), to(#3e3e3e));
+	color: #cb791e;
+	background: #cb791e;
+	background: -webkit-gradient(linear, left top, right bottom, from(#cb791e), to(#8b510e));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1794,7 +1798,7 @@ ul.features-list-hero li i{
 	padding-right: 2px;
 	padding-top: 3px ;
 	text-align: center;
-	color:#ffffff;
+	color:#c47821;
 	font-size:42px;
 	line-height: 46px;
 	vertical-align: text-top;
