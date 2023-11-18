@@ -635,10 +635,10 @@ video#bgvid { transition: 1s opacity; }
 	position: absolute;
 	z-index: -1;
 	content: '';
-	background: #232323; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #232323 , #232323); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #232323 , #232323); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	opacity: 0.7;
+	background: #0e0e0e; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #0e0e0e , #232323); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #0e0e0e , #232323); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 1;
 }
 
 
@@ -1907,4 +1907,30 @@ ul.features-list-hero li i{
   		margin-top: 12px;
   	}
 
+}
+
+#banner{
+	display: flex;
+	gap: 50px;
+}
+
+#bannerText{
+	display: flex;
+}
+
+#bannerVideo{
+	width: 480px;
+	height: 270px;
+	background-color: #292929;
+}
+
+.item{
+	width: 50px;
+	background-color: #363636;
+}
+
+.membro-equipe{
+	width: 300px;
+	height: 350px!important;
+	background-color: #008aff;
 }

@@ -33,14 +33,10 @@
 	
     <!-- Font Favicon -->
     <link rel="shortcut icon" href="images/favicon-08.webp">
-    
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    <!--headerIncludes-->
+
+	<!-- Owl carousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 
@@ -78,11 +74,11 @@
 
                         <li><a href="#private">Private</a></li>
 
-                        <li><a href="#services">Benefícios</a></li>
-
-                        <li><a href="#gallery">Empreendimentos</a></li>
+                        <li><a href="#consultoria">Consultoria</a></li>
 						
-                        <li><a href="#team">Consultoria</a></li>
+                        <li><a href="#services">Benefícios</a></li>
+						
+                        <li><a href="#gallery">Empreendimentos</a></li>
 
                         <li><a href="#sobre">Sobre Nós</a></li>
 
@@ -107,25 +103,25 @@
 		<div class="home-section-overlay">
 			
             <div class="gradient-overlay">
-                <video autoplay loop muted poster="images/bg.png" id="bgvid">
+                <!-- <video autoplay loop muted poster="images/bg.png" id="bgvid">
                 <source src="video/video-capa.mp4" type="video/mp4">
-                </video>
+                </video> -->
             </div>
     
 		</div>
 
 		<!--begin container -->
-		<div class="container">
+		<div class="container" id="banner">
 
 	        <!--begin row -->
-	        <div class="row">
+	        <div class="row" id="bannerText">
 	          
 	            <!--begin col-md-12-->
 	            <div class="col-md-12 text-center">
 
-	          		<h1>Descubra o Privilégio de Viver com Sofisticação e Exclusividade.</h1>
+	          		<h1>Reali Private</h1>
 
-	          		<p>Seja parte de um seleto grupo que compreende o verdadeiro significado de viver com distinção.<br>Venha descobrir o que é possível com Reali Private.</p>
+	          		<p>Os melhores e mais desejados imóveis de alto padrão e luxo.</p>
 
 	        		<a href="#contact" class="btn-white">Explore os Benefícios!</a>
 
@@ -133,6 +129,12 @@
 	          <!--end col-md-12-->
 	       
 	        </div>
+
+			<div class="row" id="bannerVideo">
+				<video autoplay loop muted poster="images/bg.png" id="bgvid">
+					<source src="video/video-capa.mp4" type="video/mp4">
+				</video>
+			</div>
 	        <!--end row -->
 
 		</div>
@@ -201,77 +203,118 @@
 	</section>
 	<!--FINAL - CONCEITO PRIVATE-->
 
-  	<!--DEPOIMENTOS -->
-  	<section class="section-grey" >
+	<!--CONSULTORIA -->
+	<section class="section-white" id="consultoria">
 
-	    <!--begin container -->
-	    <div class="container">
-
-	      <!--begin row -->
-	      <div class="row">
-	        
-		        <!--begin col-md-10 -->
-		        <div class="col-md-8 col-md-offset-2">
-
-		        	<!--begin owl carousel -->
-		        	<div id="owl1" class="owl-carousel owl-theme">
-
-						<div class="testim-inner">
-
-							<img src="images/Depoente 01.jpg" alt="testimonials" class="testim-img">
+		<!--begin container-->
+		<div class="container">
+	
+			<!--begin row-->
+			<div class="row">
+			
+				<!--begin col-md-12 -->
+				<div class="col-md-12 text-center">
+	
+					<h2 class="section-title">Um Time De Especialistas À Sua Disposição</h2>
+	
+					<p class="section-subtitle">Contamos com consultores experientes e apaixonados, prontos para transformar seus sonhos em realidade. <br>Nosso atendimento personalizado garante que cada passo da sua jornada supere as suas expectativas.</p>
+					
+				</div>
+				<!--end col-md-12 -->
+				
+				<!--begin team-item -->
+				<div class="col-sm-6 col-md-4">
+	
+					<div class="team-item">
+					
+						<img src="images/Ladislau.jpg" class="team-img" alt="pic">
+						
+						<h3>LADISLAU NOGUEIRA</h3>
+						
+						<div class="team-info"><p>CEO</p></div>
+	
+						<p>Especialista em lançamentos imobiliários de médio, alto padrão e luxo. Criador da Reali Plataforma Imobiliária.</p>
+					
+						<ul class="team-icon">
+						
+							<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
 							
-							<p>"Adquirir uma propriedade com a <b>Reali Private</b> foi uma decisão que transformou completamente minha noção de luxo e sofisticação. O imóvel que escolhi é um verdadeiro refúgio, onde cada detalhe reflete o compromisso da Reali Private com a excelência.!</p>
-
-							<h6>Isabella Santoro<span class="job-text"> - Empresária no Setor de Tecnologia</span></h6>
-
-						</div>
-
-						<div class="testim-inner">
-
-							<img src="images/Depoente 02.jpg" alt="testimonials" class="testim-img">
+							<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
 							
-							<p>"Minha experiência com a <b>Reali Private</b> superou todas as expectativas. Eles entenderam meus desejos com perfeição e entregaram um imóvel que é a personificação da elegância. Cada dia é um lembrete do quanto estou satisfeito com minha escolha."</p>
-
-							<h6>Alexander von Hohenberg<span class="job-text"> -  Empresário e Investidor</span></h6>
-
-						</div>
-
-						<div class="testim-inner">
-
-							<img src="images/Depoente 03.jpg" alt="testimonials" class="testim-img">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
 							
-							<p>"Adquirir uma propriedade com a <b>Reali Private</b> foi uma jornada excepcional. A atenção aos detalhes, o compromisso com a qualidade e o atendimento personalizado tornaram a compra verdadeiramente memorável. Estou imensamente satisfeito e grato por essa experiência."</p>
-
-							<h6>Victoria Sterling<span class="job-text"> - Empresária do Setor de Moda e Design</span></h6>
-
-						</div>
-
+							
+						</ul>
+						
 					</div>
-					<!--end owl carousel -->
-
-					<!--begin owl carousel -->
-					<div class="owl-dots">
-
-						<div class="owl-dot active"><span></span></div>
-
-						<div class="owl-dot"><span></span></div>
-
-						<div class="owl-dot"><span></span></div>
-
+	
+				</div>
+				<!--end team-item -->
+					
+				<!--begin team-item -->
+				<div class="col-sm-6 col-md-4">
+	
+					<div class="team-item">
+					
+						<img src="images/Adriano.jpeg" class="team-img" alt="pic">
+						
+						<h3>ADRIANO ALVES</h3>
+						
+						<div class="team-info"><p>VP of Sales & Partner</p></div>
+	
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium adipisci incidunt facere eum porro nulla in iure.</p>
+					
+						<ul class="team-icon">
+						
+							<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
+							
+						<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
+							
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							
+						</ul>
+						
 					</div>
-					<!--end owl carousel -->
-
-		        </div>
-		        <!--end-col-md-10 -->
-
-	      	</div>
-	      	<!--end row -->
-
-	    </div>
-	    <!--end container -->
-
-  	</section>
-  	<!--FINAL - DEPOIMENTOS -->
+	
+				</div>
+				<!--end team-item -->
+								
+				<!--begin team-item -->
+				<div class="col-sm-6 col-md-4">
+	
+					<div class="team-item">
+					
+						<img src="images/Magnus.jpeg" class="team-img" alt="pic">
+						
+						<h3>MAGNUS NOGUEIRA</h3>
+						
+						<div class="team-info"><p>VP of Sales & Partner</p></div>
+	
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio aspernatur beatae impedit officia! Voluptatem alias error.</p>
+					
+						<ul class="team-icon">
+						
+							<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
+							
+							<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
+							
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+	
+						</ul>
+						
+					</div>
+	
+				</div>
+				<!--end team-item -->
+			
+			</div>
+			<!--end row-->
+		
+		</div>
+		<!--end container-->
+	
+	</section>
+	<!--FINAL - CONSULTORIA -->
 
   	<!--BENEFÍCIOS -->
   	<section class="section-dark" id="services">
@@ -419,6 +462,70 @@
   	</section>
   	<!--FINAL - BENEFÍCIOS -->
 
+	<!--GALERIA DE EMPREENDIMENTOS -->
+	<section class="section-gradient" id="gallery">
+
+		<!--begin container -->
+		<div class="container-fluid	">
+
+			<!--begin row -->
+			<div class="row">
+				
+				<!--begin col-md-12 -->
+				<div class="col-md-12 text-center">
+
+					<h2 class="section-title white">Conheça Alguns de Nossos Projetos</h2>
+
+					<p class="section-subtitle white">Apresentamos com orgulho as joias imobiliárias da Reali Private<br>onde o seu sonho de morar com elegância e requinte se torna realidade.</p>
+					
+				</div>
+				<!--end col-md-12 -->
+
+				<!--begin col-md-12 -->
+				<div class="gallery-item-wrapper padding-top-30">
+
+					<!--begin owl carousel -->
+					<div id="owl2" class="owl-carousel owl-theme">
+
+						<a href=""><img src="images/empreendimento-01.webp" alt="Wave" class="gallery-show"></a>
+
+						<a href=""><img src="images/empreendimento-02.webp" alt="Ivens Monumental" class="gallery-show"></a>
+
+						<a href=""><img src="images/empreendimento-03.webp" alt="One" class="gallery-show"></a>
+
+						<a href=""><img src="images/empreendimento-04.webp" alt="Pinifarina" class="gallery-show"></a>
+
+						<a href=""><img src="images/empreendimento-05.webp" alt="Epic" class="gallery-show"></a>
+
+						<a href=""><img src="images/empreendimento-06.webp" alt="São Carlos" class="gallery-show"></a>
+					
+					</div>
+					<!--end owl carousel -->
+
+					<!--begin owl-dots -->
+					<div class="owl-dots">
+
+						<div class="owl-dot active"><span></span></div>
+
+						<div class="owl-dot"><span></span></div>
+
+						<div class="owl-dot"><span></span></div>
+
+					</div>
+					<!--end owl-dots -->
+
+				</div>
+				<!--end col-md-12-->
+
+			</div>
+			<!--end row -->
+
+		</div>
+		<!--end container -->
+
+	</section>
+	<!--FINAL - GALERIA DE EMPREENDIMENTOS -->
+
     <!--FATOS RELEVANTES -->
     <section class="section-grey small-paddings">
 
@@ -487,183 +594,6 @@
     </section>
     <!--FINAL - FATOS RELEVANTES -->
 
-	<!--GALERIA DE EMPREENDIMENTOS -->
-	<section class="section-gradient" id="gallery">
-
-		<!--begin container -->
-		<div class="container-fluid	">
-
-			<!--begin row -->
-			<div class="row">
-				
-				<!--begin col-md-12 -->
-				<div class="col-md-12 text-center">
-
-					<h2 class="section-title white">Conheça Alguns de Nossos Projetos</h2>
-
-					<p class="section-subtitle white">Apresentamos com orgulho as joias imobiliárias da Reali Private<br>onde o seu sonho de morar com elegância e requinte se torna realidade.</p>
-					
-				</div>
-				<!--end col-md-12 -->
-
-				<!--begin col-md-12 -->
-				<div class="gallery-item-wrapper padding-top-30">
-
-					<!--begin owl carousel -->
-					<div id="owl2" class="owl-carousel owl-theme">
-
-						<a href=""><img src="images/empreendimento-01.webp" alt="Wave" class="gallery-show"></a>
-
-						<a href=""><img src="images/empreendimento-02.webp" alt="Ivens Monumental" class="gallery-show"></a>
-
-						<a href=""><img src="images/empreendimento-03.webp" alt="One" class="gallery-show"></a>
-
-						<a href=""><img src="images/empreendimento-04.webp" alt="Pinifarina" class="gallery-show"></a>
-
-						<a href=""><img src="images/empreendimento-05.webp" alt="Epic" class="gallery-show"></a>
-
-						<a href=""><img src="images/empreendimento-06.webp" alt="São Carlos" class="gallery-show"></a>
-					
-					</div>
-					<!--end owl carousel -->
-
-					<!--begin owl-dots -->
-					<div class="owl-dots">
-
-						<div class="owl-dot active"><span></span></div>
-
-						<div class="owl-dot"><span></span></div>
-
-						<div class="owl-dot"><span></span></div>
-
-					</div>
-					<!--end owl-dots -->
-
-				</div>
-				<!--end col-md-12-->
-
-			</div>
-			<!--end row -->
-
-		</div>
-		<!--end container -->
-
-	</section>
-	<!--FINAL - GALERIA DE EMPREENDIMENTOS -->
-
-	<!--TIME -->
-	<section class="section-white" id="team">
-
-	<!--begin container-->
-	<div class="container">
-
-		<!--begin row-->
-		<div class="row">
-		
-			<!--begin col-md-12 -->
-			<div class="col-md-12 text-center">
-
-				<h2 class="section-title">Um Time De Especialistas À Sua Disposição</h2>
-
-				<p class="section-subtitle">Contamos com consultores experientes e apaixonados, prontos para transformar seus sonhos em realidade. <br>Nosso atendimento personalizado garante que cada passo da sua jornada supere as suas expectativas.</p>
-				
-			</div>
-			<!--end col-md-12 -->
-			
-			<!--begin team-item -->
-			<div class="col-sm-6 col-md-4">
-
-				<div class="team-item">
-				
-					<img src="images/Ladislau.jpg" class="team-img" alt="pic">
-					
-					<h3>LADISLAU NOGUEIRA</h3>
-					
-					<div class="team-info"><p>CEO</p></div>
-
-					<p>Especialista em lançamentos imobiliários de médio, alto padrão e luxo. Criador da Reali Plataforma Imobiliária.</p>
-				
-					<ul class="team-icon">
-					
-						<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
-						
-						<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
-						
-						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-						
-						
-					</ul>
-					
-				</div>
-
-			</div>
-			<!--end team-item -->
-				
-			<!--begin team-item -->
-			<div class="col-sm-6 col-md-4">
-
-				<div class="team-item">
-				
-					<img src="images/Adriano.jpeg" class="team-img" alt="pic">
-					
-					<h3>ADRIANO ALVES</h3>
-					
-					<div class="team-info"><p>VP of Sales & Partner</p></div>
-
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium adipisci incidunt facere eum porro nulla in iure.</p>
-				
-					<ul class="team-icon">
-					
-						<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
-						
-					<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
-						
-						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-						
-					</ul>
-					
-				</div>
-
-			</div>
-			<!--end team-item -->
-							
-			<!--begin team-item -->
-			<div class="col-sm-6 col-md-4">
-
-				<div class="team-item">
-				
-					<img src="images/Magnus.jpeg" class="team-img" alt="pic">
-					
-					<h3>MAGNUS NOGUEIRA</h3>
-					
-					<div class="team-info"><p>VP of Sales & Partner</p></div>
-
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio aspernatur beatae impedit officia! Voluptatem alias error.</p>
-				
-					<ul class="team-icon">
-					
-						<li><a href="#" class="twitter"><i class="fa fa-envelope-o"></i></a></li>
-						
-						<li><a href="#" class="pinterest"><i class="fa fa-linkedin"></i></a></li>
-						
-						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-
-					</ul>
-					
-				</div>
-
-			</div>
-			<!--end team-item -->
-		
-		</div>
-		<!--end row-->
-	
-	</div>
-	<!--end container-->
-
-	</section>
-	<!--FINAL - TIME -->
-
 	<!--SOBRE A REALI -->
 	<section class="section-gradient padding-top-50 no-padding-bottom" id="sobre">
 
@@ -712,6 +642,37 @@
 
 	</section>
     <!--FINAL - SOBRE A REALI -->
+
+	<!--TIME -->
+	<section class="section-white" id="sobreTeam">
+
+		<div class="container">
+
+			<div class="row">
+			
+				<div class="col-md-12 text-center">
+
+					<h2 class="section-title">Um Time De Especialistas À Sua Disposição</h2>
+
+					<p class="section-subtitle">Contamos com consultores experientes e apaixonados, prontos para transformar seus sonhos em realidade. <br>Nosso atendimento personalizado garante que cada passo da sua jornada supere as suas expectativas.</p>
+					
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<div class="membro-equipe">
+					<h1>Nome</h1>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	<!--FINAL - TIME -->
 
     <!--LANÇAMENTOS FUTUROS -->
     <section class="section-grey" id="blog">
@@ -997,6 +958,8 @@
     <!--FINAL - FOOTER -->
 
 <!-- Load JS here for greater good =============================-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/owl.carousel.min.js"></script>
@@ -1006,6 +969,27 @@
 <script src="js/wow.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/custom.js"></script>
+
+<script type="text/javascript">
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:false,
+	dots: true,
+	center: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
 
 
 </body>
